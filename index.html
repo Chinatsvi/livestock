@@ -395,6 +395,21 @@
 
     .card p { margin: 0; color: var(--muted); font-size: 14px; }
 
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 12px;
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--soil);
+    }
+
+    .card:hover .card-link { text-decoration: underline; }
+
     /* ===== CTA ===== */
     .cta { background: var(--cream); text-align: center; padding: 90px 20px; }
 
@@ -844,16 +859,19 @@
           <div class="icon icon-field">🌱</div>
           <h3>Crop Farming</h3>
           <p>Soil preparation, planting, fertilization, pest management and harvesting.</p>
+          <span class="card-link">Click here →</span>
         </a>
         <a href="https://chinatsvi.github.io/Agribusiness/" class="card reveal">
           <div class="icon icon-soil">💰</div>
           <h3>Agribusiness</h3>
           <p>Budgeting, production costs, marketing and building a sustainable farm business.</p>
+          <span class="card-link">Click here →</span>
         </a>
         <a href="https://chinatsvi.github.io/digital-farming/" class="card reveal">
           <div class="icon icon-ink">📱</div>
           <h3>Digital Farming</h3>
           <p>Weather tools, farm records, sensors and AI support for modern agriculture.</p>
+          <span class="card-link">Click here →</span>
         </a>
       </div>
     </div>
